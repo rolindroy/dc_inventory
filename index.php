@@ -14,6 +14,17 @@ if (isset($_GET['logout'])) {
   unset($_SESSION['username']);
   header("location: login.php");
 }
+
+if(isset($_SESSION['created'])) {
+  if (time() - $_SESSION['created'] > 900)
+  {
+    session_destroy();
+    unset($_SESSION['username']);
+    unset($_SESSION['created']);
+    header("location: login.php?session_out=1");
+  }
+}
+
 ?>
 <!DOCTYPE html>
 <html>

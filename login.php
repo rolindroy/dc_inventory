@@ -22,12 +22,18 @@ if (count($_POST))
 
     if (count($resultData) == 1) {
       $_SESSION['username'] = $loginUsername;
+      $_SESSION['created'] = time();
       $_SESSION['success'] = "You are now logged in";
       header('location: index.php');
     }
     else {
       array_push($errors, "Wrong username/password combination");
     }
+}
+
+if (isset($_GET['session_out']))
+{
+  array_push($errors, "Your session has timed out. Please sign in again.");
 }
 
  ?>
