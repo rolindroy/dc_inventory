@@ -1,0 +1,22 @@
+<?php
+define('ROOT', dirname(__FILE__));
+require_once ROOT . '/core/config/config.php';
+require_once ROOT . '/core/db/MySQLConnection.class.php';
+
+// echo TclConfig::config('mysql.host');
+$connTpc = MySQLConnection::getInstance('mysql');
+
+$query = "SELECT * from users";
+
+try
+{
+  $tpcGames = $connTpc->executeQuery($query);
+}
+catch (Exception $e)
+{
+  print_r($e);
+}
+
+print_r($tpcGames);
+
+?>
