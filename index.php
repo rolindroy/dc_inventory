@@ -20,7 +20,7 @@ if (isset($_GET['logout'])) {
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bootstrap Material Admin by Bootstrapious.com</title>
+    <title>DC Inventory Management</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="all,follow">
@@ -37,7 +37,7 @@ if (isset($_GET['logout'])) {
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="img/logo.png">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -60,7 +60,6 @@ if (isset($_GET['logout'])) {
               <div class="navbar-header">
                 <!-- Navbar Brand --><a href="index.html" class="navbar-brand d-none d-sm-inline-block">
                   <div class="brand-text d-none d-lg-inline-block"><span>DC Incetory</span><strong>Management</strong></div>
-                  <div class="brand-text d-none d-sm-inline-block d-lg-none"><strong>BD</strong></div></a>
                 <!-- Toggle Button--><a id="toggle-btn" href="#" class="menu-btn active"><span></span><span></span><span></span></a>
               </div>
               <!-- Navbar Menu -->
@@ -84,27 +83,10 @@ if (isset($_GET['logout'])) {
               <h1 class="h4">Admin</h1>
             </div>
           </div>
-          <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
+          <!-- Sidebar Navidation Menus--><span class="heading">Menu</span>
           <ul class="list-unstyled">
                     <li class="active"><a href="index.html"> <i class="icon-home"></i>Home </a></li>
-                    <li><a href="tables.html"> <i class="icon-grid"></i>Tables </a></li>
                     <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts </a></li>
-                    <li><a href="forms.html"> <i class="icon-padnote"></i>Forms </a></li>
-                    <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Example dropdown </a>
-                      <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
-                        <li><a href="#">Page</a></li>
-                        <li><a href="#">Page</a></li>
-                        <li><a href="#">Page</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="login.html"> <i class="icon-interface-windows"></i>Login page </a></li>
-          </ul><span class="heading">Extras</span>
-          <ul class="list-unstyled">
-            <li> <a href="#"> <i class="icon-flask"></i>Demo </a></li>
-            <li> <a href="#"> <i class="icon-screen"></i>Demo </a></li>
-            <li> <a href="#"> <i class="icon-mail"></i>Demo </a></li>
-            <li> <a href="#"> <i class="icon-picture"></i>Demo </a></li>
-          </ul>
         </nav>
         <div class="content-inner">
           <!-- Page Header-->

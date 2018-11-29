@@ -52,7 +52,7 @@ if (count($_POST))
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="img/logo.png">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -67,9 +67,8 @@ if (count($_POST))
               <div class="info d-flex align-items-center">
                 <div class="content">
                   <div class="logo">
-                    <h1>Dashboard</h1>
+                    <h1>DC Inventory Management</h1>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
               </div>
             </div>
@@ -95,9 +94,6 @@ if (count($_POST))
                     		<?php endforeach ?>
                     	</div>
                     <?php  endif ?>
-
-                    <!-- This should be submit button but I replaced it with <a> for demo purposes-->
-                  </form><a href="#" class="forgot-pass">Forgot Password?</a><br><small>Do not have an account? </small><a href="register.html" class="signup">Signup</a>
                 </div>
               </div>
             </div>
@@ -105,8 +101,7 @@ if (count($_POST))
         </div>
       </div>
       <div class="copyrights text-center">
-        <p>Design by <a href="https://bootstrapious.com/admin-templates" class="external">Bootstrapious</a>
-          <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+        <p>Design by <a href="www.tatacommunications.com" class="external">TATA Communications</a>
         </p>
       </div>
     </div>
